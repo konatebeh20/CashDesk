@@ -1,0 +1,39 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/venv
+/static/images
+/config/constant.py
+/config/db.py
+/migrations
+# dependencies
+/node_modules
+
+/assets/*
+/migrations
+
+/static/assets/*.csv
+
+/logger/appstats.log
+/logger/app.log
+/logger/app.txt
+/config/__pycache__
+/resources/__pycache__
+/model/__pycache__
+/helpers/__pycache__
+/__pycache__
+
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
